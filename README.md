@@ -2,6 +2,8 @@
 
 [English](README.md) · [中文](README.zh-CN.md) · for KinkiestDungeon **5.5.6+**
 
+> I know this doc has a really strong, weird AI-generated feel, and I hate it. But I spent the entire day editing it and then it got ruined!!!! Okay, I give up—please just let me set it aside for now.
+
 **The dungeon doesn't wait for you to think.** After a few seconds without acting, your character waits one turn in place. The lower your stamina, the faster the clock runs — hesitate too long and the world moves on without you.
 
 It never moves you, attacks, or uses items: it only waits. Take any turn yourself and the timer starts over. Everything is tuned outside the run, in `Options → Mod Configuration → Restless`.
