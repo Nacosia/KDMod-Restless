@@ -1,0 +1,12 @@
+{
+	"modname": "Restless",
+	"moddesc": "Waits one turn in place after a while without input; the lower your stamina, the faster time moves. Inspect mode and spell aiming no longer freeze the clock but become bullet time (inspect x6, aim x3 by default; adjustable, 0 restores the pause). Draws a thin progress ring (or bar, colour follows the stamina stage) under the character by default, with an optional quiet mode that only shows up near the moment and a debug panel. Base values are in Options -> Mod Configuration.",
+	"author": "09",
+	"modbuild": 1,
+	"gamemajor": 5,
+	"gameminor": 5,
+	"gamepatch_min": 6,
+	"gamepatch_max": -1,
+	"priority": 0,
+	"fileorder": ["Restless.js"]
+}

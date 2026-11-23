@@ -1,0 +1,114 @@
+KDRLModName,无法安宁
+KDModButtonKDRestless,无法安宁
+KDModButtonKDRLEnabled,启用自动推进回合
+KDModButtonKDRLIndicator,屏幕指示器
+KDModButtonKDRLQuiet,安静模式（只在临近时显示）
+KDModButtonKDRLMode,体力曲线模式
+KDModButtonKDRLBaseInterval,基础间隔（毫秒）
+KDModButtonKDRLLinear,线性强度（0-1）
+KDModButtonKDRLStage,阶段强度（0-1）
+KDModButtonKDRLMinInterval,最小间隔（毫秒）
+KDModButtonKDRLMaxInterval,最大间隔（毫秒）
+KDModButtonKDRLInspectSlow,检视模式放慢倍数（0=暂停）
+KDModButtonKDRLAimSlow,施法瞄准放慢倍数（0=暂停）
+KDModButtonKDRLPolarity,节奏方向
+KDModButtonKDRLJitter,间隔随机浮动（0-0.3）
+KDModButtonKDRLNotify,节奏变化提示
+KDModButtonKDRLShowHud,调试面板（大面积状态显示）
+KDModButtonKDRLDebug,控制台调试日志
+KDModButtonKDRLDiag,详细诊断信息
+KDRLIndicatorRing,环形（脚下）
+KDRLIndicatorFootBar,进度条（脚下）
+KDRLIndicatorHeadBar,进度条（头顶）
+KDRLIndicatorOff,关闭
+KDRLQuietAlways,关闭（始终显示）
+KDRLQuietLast3,最后 3 秒才出现
+KDRLQuietLast5,最后 5 秒才出现
+KDRLQuietStamina25,只在体力低于 25% 时出现
+KDRLQuietEither,体力低或最后 3 秒（任一触发）
+KDRLModeLinear,线性
+KDRLModeStaged,阶段
+KDRLModeCombined,组合
+KDRLPolarityTiredFast,低体力更快
+KDRLPolarityTiredSlow,低体力更慢
+KDRLStartNotice,时间在向前走...
+KDRLStageCalm,时间慢悠悠地流淌...
+KDRLStageSteady,地牢的节奏不紧不慢。
+KDRLStageTense,节奏开始收紧，最好别停下。
+KDRLStageUrgent,时间在催促你，不能再磨蹭了。
+KDRLStageCritical,你感觉刻不容缓，每一刻都很关键！
+KDRLStageNameCalm,从容
+KDRLStageNameSteady,平稳
+KDRLStageNameTense,紧张
+KDRLStageNameUrgent,紧迫
+KDRLStageNameCritical,危急
+KDRLStageNameNone,—
+KDRLReasonInit,初始化中
+KDRLReasonDisabled,自动推进已被设置关闭
+KDRLReasonNotGame,当前不在游戏中
+KDRLReasonSubscreen,打开了子界面
+KDRLReasonNoData,地图 / 角色数据未就绪
+KDRLReasonControls,游戏控制被禁用（对话、消息浮层等）
+KDRLReasonModal,有弹窗 / 模态框打开
+KDRLReasonDialog,对话进行中
+KDRLReasonInventory,物品栏 / 目标选择 / 检视中
+KDRLReasonInput,输入队列尚未清空
+KDRLReasonAutoWait,其他自动模式正在接管回合
+KDRLReasonSleep,睡眠中
+KDRLReasonFreeze,被冻结，无法行动
+KDRLReasonSlow,缓慢移动中
+KDRLReasonDelayed,延迟动作处理中
+KDRLReasonSave,正在存档
+KDRLReasonStairs,站在楼梯上（防止自动下楼）
+KDRLReasonObject,站在可交互物体 / 机关上
+KDRLReasonCountdown,计时中
+KDRLReasonIdle,刚刚行动过，重新计时
+KDRLReasonInspectPause,检视模式（倍数为 0，按设置暂停）
+KDRLReasonAimPause,施法瞄准（倍数为 0，按设置暂停）
+KDRLReasonError,内部错误，已暂停自动推进
+KDRLReasonNoMove,上一次等待没有消耗回合（输入被吞掉）
+KDRLDetailMapSize,地图尺寸
+KDRLDetailPlayerEntity,玩家实体
+KDRLDetailPlayerCoords,玩家坐标 ${pos}
+KDRLDetailMessageOverlay,消息浮层
+KDRLDetailInventory,物品栏
+KDRLDetailContainer,容器操作
+KDRLDetailAttackConfirm,攻击确认
+KDRLDetailAutoWait,自动等待
+KDRLDetailAutoStruggle,自动挣扎
+KDRLDetailDelayedAutoWait,延迟自动等待
+KDRLDetailFastMove,快速移动
+KDRLDetailFastStruggle,快速挣扎
+KDRLDetailStairsConfirm,确认楼梯
+KDRLDetailMissingEngineFn,缺少引擎函数 ${name}
+KDRLSlowInspect,检视放慢
+KDRLSlowAim,瞄准放慢
+KDRLPanelTitle,无法安宁 v${ver}
+KDRLPanelRunning,● 运行中
+KDRLPanelPaused,● 已暂停
+KDRLPanelOff,○ 已关闭
+KDRLPanelLoadedScreen,已加载 · 当前界面：${screen}
+KDRLPanelScreenLine,界面：游戏中    驱动：${driver}
+KDRLPanelDriverNone,未启动
+KDRLPanelDriverNotGame,—（未在游戏中）
+KDRLPanelDriverWaiting,帧钩子（等待首帧）
+KDRLPanelDriverFrame,帧钩子
+KDRLPanelDriverTimer,定时器兜底
+KDRLPanelDriverFrameDead,帧钩子（未触发）
+KDRLPanelStateUnknown,未知
+KDRLPanelStaminaLine,体力：${value}    阶段：${stage}
+KDRLPanelStaminaValue,${cur} / ${max}（${pct}%）
+KDRLPanelStaminaUnreadable,不可读（不在局内？）
+KDRLPanelIntervalLine,间隔：${interval}    模式：${mode}（${polarity}）
+KDRLPanelCountdownLine,倒计时：${value}
+KDRLPanelCountdownValue,${elapsed} / ${total} 秒
+KDRLPanelAdvances,已自动推进 ${count} 回合（尝试 ${attempts} 次）${ago}
+KDRLPanelAgo,（${sec} 秒前）
+KDRLPanelNever,（还没推进过）
+KDRLPanelPause,⏸ ${text}
+KDRLPanelDetail,（${text}）
+KDRLPanelRetry,上次等待未生效，正在重试
+KDRLPanelSlowLine,🐢 ${name} ×${mult}（正常 ${base} ms → 现在 ${now} ms）
+KDRLPanelCompactNote,进入游戏后开始计时（本面板出现 = mod 已执行）
+KDRLPanelEngineLine,引擎：${state} · 地图 ${map} · 回合 ${turn} · 体力 ${stamina}
+KDRLPanelPlayerLine,玩家：${player} · 输入队列 ${queue} · autoWait ${autoWait}
