@@ -2,8 +2,6 @@
 
 [English](README.md) · [中文](README.zh-CN.md) · for KinkiestDungeon **5.5.6+**
 
-> I know this doc has a really strong, weird AI-generated feel, and I hate it. But I spent the entire day editing it and then it got ruined!!!! Okay, I give up—please just let me set it aside for now.
-
 **The dungeon doesn't wait for you to think.** After a few seconds without acting, your character waits one turn in place. The lower your stamina, the faster the clock runs — hesitate too long and the world moves on without you.
 
 It never moves you, attacks, or uses items: it only waits. Take any turn yourself and the timer starts over. Everything is tuned outside the run, in `Options → Mod Configuration → Restless`.
@@ -45,7 +43,7 @@ Stage thresholds and their factors:
 | Stage | Calm | Steady | Tense | Urgent | Critical |
 | Factor | 1.20 | 1.00 | 0.85 | 0.70 | 0.55 |
 
-At the defaults that works out to roughly **4.8 s per turn at full stamina** and **1.5 s when exhausted**. Waiting restores stamina at double rate, so burning out pushes you through a few quick turns and then the pace eases off again on its own.
+At the defaults that works out to roughly **4.8 s per turn at full stamina** and **1.5 s when exhausted**.
 
 ![Three stamina → interval curves at default settings](docs/curves-en.png)
 
@@ -69,7 +67,7 @@ At the defaults that works out to roughly **4.8 s per turn at full stamina** and
 | Interval jitter (0-0.3) | 0.1 | random wobble, so it never feels metronomic |
 | Stage change notice | on | a one-line message when the pace changes gear |
 
-There's a debug panel and a console log too, if you like watching the numbers.
+There's a debug panel and a console log too. The log is on by default (handy when something misbehaves); switch off *Console debug log* if you'd rather keep the console clean.
 
 ![Mod configuration page (indicator set to "Bar (under feet)" in this shot)](docs/config.png)
 
